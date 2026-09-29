@@ -1,0 +1,36 @@
+{
+  "name": "read-view-once",
+  "version": "1.0.0",
+  "description": "WhatsApp bot that opens view-once photo, video, audio via reply /rvo, /viewonce, /readviewonce",
+  "main": "index.js",
+  "type": "module",
+  "author": "ReyLan <https://github.com/ReyLanTra> (Ikhlas Digital Hub)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ReyLanTra/Read-View-Once.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ReyLanTra/Read-View-Once/issues"
+  },
+  "homepage": "https://github.com/ReyLanTra/Read-View-Once#readme",
+  "keywords": [
+    "whatsapp",
+    "whatsapp-bot",
+    "baileys",
+    "view-once",
+    "nodejs"
+  ],
+  "scripts": {
+    "start": "node index.js",
+    "pairing": "node index.js --pairing"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "latest",
+    "pino": "^9.0.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
